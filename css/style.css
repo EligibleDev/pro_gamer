@@ -34,20 +34,64 @@
     display: grid;
 }
 
-span.color{
+span.color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.title{
+.title {
     font-weight: 700;
 }
 
 
-.paragraph{
+.paragraph {
     color: #534C64;
     font-weight: 400;
 }
+
 /* default css end */
+
+/* header css start  */
+header {
+    padding: 2rem 0;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+header div.logo {
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.logo .logo-color {
+    color: #F948B2;
+}
+
+ul.menu {
+    list-style: none;
+    gap: 1.5rem;
+}
+
+ul >.menu-item {
+    color: #3C354F;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+div.follow {
+    height: 2.75rem;
+    padding: 0 1rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    gap: 1rem;
+    cursor: auto;
+}
+
+div.follow > .menu-item{
+    cursor: pointer;
+}
+
+
+/* header css end  */
