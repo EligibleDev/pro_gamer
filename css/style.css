@@ -64,6 +64,7 @@ button {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
     border-radius: 48px;
     padding: 1rem 2rem;
     border: none;
@@ -306,7 +307,7 @@ section.career {
     cursor: pointer;
 }
 
-.category-box img{
+.category-box img {
     width: 3rem;
 }
 
@@ -315,7 +316,7 @@ section.career {
     transition: 0.5s;
 }
 
-.category-box:hover .category-title{
+.category-box:hover .category-title {
     color: #FF42A5;
     transition: 0.5s;
 }
@@ -327,3 +328,65 @@ section.career {
 }
 
 /* game-category css end  */
+
+/* footer css start */
+footer {
+    background: #0B0223;
+}
+
+footer .logo-text {
+    color: #fff;
+}
+
+footer .logo {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-menu {
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 6rem);
+}
+
+.footer-menu>.menu-item {
+    color: #fff;
+    font-weight: 600;
+}
+
+footer i {
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.icon-container {
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.copy-right-menu {
+    list-style: none;
+    justify-content: center;
+    gap: 0rem;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+}
+
+.copy-right-menu .copy-menu-item {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+/* footer css end */

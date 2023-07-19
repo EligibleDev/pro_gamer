@@ -137,6 +137,24 @@
     div.image-left {
         width: 70%;
     }
+
+    .copy-right-menu {
+        list-style: none;
+        justify-content: center;
+        gap: 2rem;
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 10rem);
+    }
+
+    .footer-menu {
+        list-style: none;
+        justify-content: center;
+        gap: 2rem;
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 6rem);
+    }
 }
 
 
@@ -209,6 +227,10 @@
     .category-box img {
         width: 1rem;
     }
+
+    .icon-container{
+        padding: 0 5rem;
+    }
 }
 
 
@@ -233,5 +255,27 @@
 
     button {
         font-size: 0.7rem;
+    }
+
+    .icon-container{
+        padding: 0 3rem;
+    }
+
+    .copy-right-menu {
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 9rem);
+    }
+
+    .footer-menu {
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(3, 5.5rem);
     }
 }
