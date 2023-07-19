@@ -6,6 +6,14 @@
     .banner-info p {
         font-size: 0.8rem;
     }
+
+    .intro-left{
+        width: 50%;
+    }
+
+    .intro-right{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:993px) {
@@ -17,6 +25,10 @@
 @media screen and (max-width:769px) {
     .container{
         padding: 0rem 4rem;
+    }
+
+    .paragraph{
+        text-align: center;
     }
 
     header > div.d-f{
@@ -35,7 +47,24 @@
 
     .banner-left{
         text-align: left;
-        /* width: 100%; */
+    }
+
+    .intro-section > div{
+        flex-direction: column;
+    }
+
+    .intro-left{
+        width: 100%;
+    }
+
+    .intro-right{
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .purpose{
+        text-align: center;
     }
 }
 
@@ -47,6 +76,32 @@
     } 
 }
 
+
+
+@media screen and (max-width:481px) {
+    .title{
+     font-size: 2rem;
+    } 
+
+    .paragraph{
+        font-size: 0.8rem;
+        line-height: normal;
+    }
+
+    .intro-right h4{
+        font-size: 1rem;
+        color: #534C64;
+    }
+
+    .our-purpose{
+        font-size: 0.8rem;
+    }
+
+ }
+ 
+ 
+ 
+ 
 @media screen and (max-width:426px) {
     nav ul.menu{
         flex-direction: column;
@@ -56,6 +111,9 @@
         box-shadow: none;
     }
 }
+
+
+
 
 @media screen and (max-width:321px) {
     .logo-text{

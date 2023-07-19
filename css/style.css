@@ -22,8 +22,8 @@
     text-align: left;
 }
 
-.sec-padd {
-    margin: 3.5rem 0rem;
+.sec-padding {
+    padding: 3.5rem 0rem;
 }
 
 .t-r {
@@ -43,12 +43,15 @@ span.color {
 
 .title {
     font-weight: 700;
+    font-size: 2.5rem;
 }
 
 
 .paragraph {
     color: #534C64;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
 }
 
 .primary-button {
@@ -57,19 +60,20 @@ span.color {
     border: none;
 }
 
-button{
+button {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 48px;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
 }
 
-.secondary-button{
+.secondary-button {
     color: #FFF;
     background: #4EC5F7;
     border: none;
 }
+
 /* default css end */
 
 /* header css start  */
@@ -116,7 +120,7 @@ div.follow>.menu-item {
 
 /* banner css start  */
 .banner-section {
-    background: url('./');
+    background: url("./");
     background-position: center left;
     background-size: contain;
 }
@@ -153,11 +157,47 @@ div.follow>.menu-item {
     color: #534C64;
 }
 
-.button-container{
+.button-container {}
 
-}
-
-.banner-right img{
+.banner-right img {
     width: 80%;
+    margin-bottom: -5px;
 }
+
 /* banner css end  */
+
+/* intro css start  */
+.intro-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.intro-left{
+    width: 60%;
+}
+
+.intro-left img{
+    width: 100%;
+}
+
+.intro-right{
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: end;
+    width: 35%;
+}
+
+.our-purpose {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.intro-right h4{
+    font-size: 1.6rem;
+    color: #534C64;
+}
+
+/* .intro-right p.paragraph{
+    width: 60%;
+} */
+/* intro css end  */
