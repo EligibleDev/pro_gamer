@@ -1,5 +1,5 @@
 @media screen and (max-width:1025px) {
-    .container{
+    .container {
         padding: 0rem 7rem;
     }
 
@@ -7,19 +7,19 @@
         font-size: 0.8rem;
     }
 
-    .intro-left{
+    .intro-left {
         width: 50%;
     }
 
-    .intro-right{
+    .intro-right {
         width: 50%;
     }
 
-    .image-left h3.title{
+    .image-left h3.title {
         font-size: 1.8rem;
     }
 
-    section.career{
+    section.career {
         flex-direction: column;
         padding: 0;
     }
@@ -34,63 +34,61 @@
     }
 }
 
-@media screen and (max-width:993px) {
-
-}
+@media screen and (max-width:993px) {}
 
 
 
 @media screen and (max-width:769px) {
-    .container{
+    .container {
         padding: 0rem 4rem;
     }
 
-    .paragraph{
+    .paragraph {
         text-align: center;
     }
 
-    header > div.d-f{
+    header>div.d-f {
         flex-direction: column;
         gap: 1rem;
     }
 
-    .banner-section > div{
+    .banner-section>div {
         flex-direction: column-reverse;
         gap: 4rem;
     }
 
-    .banner-right{
+    .banner-right {
         text-align: center;
     }
 
-    .banner-left{
+    .banner-left {
         text-align: left;
     }
 
-    .intro-section > div{
+    .intro-section>div {
         flex-direction: column;
     }
 
-    .intro-left{
+    .intro-left {
         width: 100%;
     }
 
-    .intro-right{
+    .intro-right {
         align-items: center;
         width: 100%;
 
     }
 
-    .purpose{
+    .purpose {
         text-align: center;
     }
 
-    .cascading-image-section > div{
+    .cascading-image-section>div {
         flex-direction: column;
         gap: 3rem;
     }
 
-    div.image-left{
+    div.image-left {
         text-align: center;
         width: 70%;
     }
@@ -99,27 +97,44 @@
         width: 100%;
     }
 
-    .badge-image img{
+    .badge-image img {
         width: 50%;
     }
+
+    .category-container {
+        gap: 1rem;
+    }
+
+    .category-title {
+        font-size: 0.7rem;
+    }
+
+    .category-box {
+        gap: 0.5rem;
+    }
+
+    .category-box img {
+        width: 2rem;
+    }
+
 }
 
 
 
 @media screen and (max-width:577px) {
-    .container{
+    .container {
         padding: 0rem 2rem;
-    } 
+    }
 
-    .game-container{
+    .game-container {
         flex-direction: column;
     }
 
-    .game-card{
+    .game-card {
         width: 100%;
     }
 
-    div.image-left{
+    div.image-left {
         width: 70%;
     }
 }
@@ -127,40 +142,80 @@
 
 
 @media screen and (max-width:481px) {
-    .title{
-     font-size: 2rem;
-    } 
+    .title {
+        font-size: 2rem;
+    }
 
-    .paragraph{
+    .paragraph {
         font-size: 0.8rem;
         line-height: normal;
     }
 
-    .intro-right h4{
+    .intro-right h4 {
         font-size: 1rem;
         color: #534C64;
     }
 
-    .our-purpose{
+    .our-purpose {
         font-size: 0.8rem;
     }
 
- }
- 
- 
- 
- 
+    .category-container {
+        gap: 0.5rem;
+    }
+
+    .category-title {
+        font-size: 0.6rem;
+    }
+
+    .category-box {
+        gap: 0.25rem;
+    }
+
+    .category-box img {
+        width: 1.5rem;
+    }
+
+}
+
+
+
+
 @media screen and (max-width:426px) {
-    nav ul.menu{
+    nav ul.menu {
         flex-direction: column;
     }
 
-    header{
+    header {
         box-shadow: none;
     }
 
     .career-left p {
         font-size: 0.6rem;
+    }
+
+    .category-container {
+        gap: 0.25rem;
+    }
+
+    .category-title {
+        font-size: 0.5rem;
+    }
+
+    .category-box {
+        gap: 0.25rem;
+    }
+
+    .category-box img {
+        width: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width:325px) {
+    .category-container{
+        gap:0;
     }
 }
 
@@ -168,15 +223,15 @@
 
 
 @media screen and (max-width:321px) {
-    .logo-text{
+    .logo-text {
         font-size: 1.8rem;
     }
 
-    .banner-section h1{
+    .banner-section h1 {
         font-size: 4rem;
     }
 
-    button{
+    button {
         font-size: 0.7rem;
     }
 }
