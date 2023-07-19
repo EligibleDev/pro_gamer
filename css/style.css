@@ -66,12 +66,17 @@ button {
     text-transform: uppercase;
     border-radius: 48px;
     padding: 1rem 2rem;
+    border: none;
 }
 
 .secondary-button {
     color: #FFF;
     background: #4EC5F7;
     border: none;
+}
+
+.third-button {
+    color: #F948B2;
 }
 
 /* default css end */
@@ -120,7 +125,7 @@ div.follow>.menu-item {
 
 /* banner css start  */
 .banner-section {
-    background: url("./");
+    background-image: url();
     background-position: center left;
     background-size: contain;
 }
@@ -200,7 +205,7 @@ div.follow>.menu-item {
 /* intro css end  */
 
 /* games section css start  */
-.games p.paragraph{
+.games p.paragraph {
     padding: 1rem 0 3rem;
 }
 
@@ -208,7 +213,7 @@ div.follow>.menu-item {
     gap: 1rem;
 }
 
-.game-card{
+.game-card {
     width: 24%;
 }
 
@@ -216,4 +221,65 @@ div.follow>.menu-item {
     width: 100%;
     height: 100%;
 }
+
 /* games section css end */
+
+/* cascading image css start  */
+div.image-left {
+    width: 28%;
+}
+
+div.image-right {
+    position: relative;
+    width: 50%;
+    padding: 0 0 4rem 7rem;
+}
+
+.image-right img {
+    width: 90%;
+}
+
+.badge-image img {
+    width: 75%;
+}
+
+div.badge-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* cascading image css end  */
+
+/* career css start  */
+section.career {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #ffffff;
+    padding-left: 10rem;
+}
+
+.career-left p {
+    color: #fff;
+}
+
+.career-left>p.paragraph {
+    font-weight: 300;
+    padding: 2rem 0;
+}
+
+.career-left {
+    width: 40%;
+}
+
+.career-right {
+    width: 60%;
+}
+
+.career-right img {
+    width: 100%;
+}
+
+.career .third-button{
+    margin-top: 2rem;
+}
+/* career css end  */
