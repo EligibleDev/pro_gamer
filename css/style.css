@@ -217,6 +217,41 @@ div.follow>.menu-item {
     width: 24%;
 }
 
+.image-card{
+    position: relative;
+}
+
+.overlay{
+    height: 99%;
+    width: 100%;
+    background-color: #00000087;
+    position: absolute;
+    top: 0;
+    left: 0;    border-radius: 15px;
+    display: none;
+}
+
+.image-card:hover .overlay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: 0.5s;
+    transition-timing-function: ease-in-out;
+    /* border: 5px solid #FF42A5; */
+}
+
+
+.overlay > p.paragraph{
+    color: #FF42A5;
+    padding: 0;
+}
+
+.overlay > i{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
 .game-card img {
     width: 100%;
     height: 100%;
