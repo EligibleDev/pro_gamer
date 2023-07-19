@@ -74,6 +74,14 @@
     .container{
         padding: 0rem 2rem;
     } 
+
+    .game-container{
+        flex-direction: column;
+    }
+
+    .game-card{
+        width: 100%;
+    }
 }
 
 
